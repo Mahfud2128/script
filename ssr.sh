@@ -138,10 +138,10 @@ Save_iptables
 Start_SSR
 }
 Install_SSR
-wget -O /usr/bin/mssr https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/SSR/mssr.sh && chmod +x /usr/bin/mssr
-wget -O /usr/bin/ssr https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/SSR/ssrmu.sh && chmod +x /usr/bin/ssr
-wget -O /usr/bin/add-ssr https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/SSR/add-ssr.sh && chmod +x /usr/bin/add-ssr
-wget -O /usr/bin/del-ssr https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/SSR/del-ssr.sh && chmod +x /usr/bin/del-ssr
-wget -O /usr/bin/renew-ssr https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/SSR/renew-ssr.sh && chmod +x /usr/bin/renew-ssr
+wget -O /usr/bin/mssr https://raw.githubusercontent.com/GH-reyz/script/main/SSR/mssr.sh && chmod +x /usr/bin/mssr
+wget -O /usr/bin/ssr https://raw.githubusercontent.com/GH-reyz/script/main/SSR/ssrmu.sh && chmod +x /usr/bin/ssr
+wget -O /usr/bin/add-ssr https://raw.githubusercontent.com/GH-reyz/script/main/SSR/add-ssr.sh && chmod +x /usr/bin/add-ssr
+wget -O /usr/bin/del-ssr https://raw.githubusercontent.com/GH-reyz/script/main/SSR/del-ssr.sh && chmod +x /usr/bin/del-ssr
+wget -O /usr/bin/renew-ssr https://raw.githubusercontent.com/GH-reyz/script/main/SSR/renew-ssr.sh && chmod +x /usr/bin/renew-ssr
 touch /usr/local/shadowsocksr/akun.conf
 rm -f /root/ssr.sh
