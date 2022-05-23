@@ -617,7 +617,7 @@ END
 cat > /etc/systemd/system/xray@.service << END
 [Unit]
 Description=Xray Service ( %i ) By JINGGO007
-Documentation=https://raw.githubusercontent.com/jinGGo007/main/
+Documentation=https://raw.githubusercontent.com/GH-reyz/main/
 After=network.target nss-lookup.target
 
 [Service]
@@ -685,29 +685,29 @@ systemctl restart xray@vless-direct
 service squid start
 
 cd /usr/bin
-wget -O mxraycore "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V1/mxraycore.sh"
-wget -O mv2raycore "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V1/mv2raycore.sh"
-wget -O add-xvmess "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V6/XRAY/add-xvmess.sh"
-wget -O del-xvmess "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V6/XRAY/del-xvmess.sh"
-wget -O renew-xvmess "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V6/XRAY/renew-xvmess.sh"
-wget -O cek-xvmess "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V6/XRAY/cek-xvmess.sh"
-wget -O port-xvmess "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V6/XRAY/port-xvmess.sh"
-wget -O add-xvless "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V6/XRAY/add-xvless.sh"
-wget -O del-xvless "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V6/XRAY/del-xvless.sh"
-wget -O renew-xvless "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V6/XRAY/renew-xvless.sh"
-wget -O cek-xvless "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V6/XRAY/cek-xvless.sh"
-wget -O port-xvless "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V6/XRAY/port-xvless.sh"
-wget -O add-grpc "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V6/XRAY/add-grpc.sh"
-wget -O del-grpc "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V6/XRAY/del-grpc.sh"
-wget -O renew-grpc "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V6/XRAY/renew-grpc.sh"
-wget -O cek-grpc "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V6/XRAY/cek-grpc.sh"
-wget -O port-grpc "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V6/XRAY/port-grpc.sh"
-wget -O add-xtls "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V6/XRAY/add-xtls.sh"
-wget -O del-xtls "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V6/XRAY/del-xtls.sh"
-wget -O renew-xtls "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V6/XRAY/renew-xtls.sh"
-wget -O cek-xtls "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V6/XRAY/cek-xtls.sh"
-wget -O port-xtls "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V6/XRAY/port-xtls.sh"
-wget -O recert-xrayv2ray "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V1/recert-xrayv2ray.sh"
+wget -O mxraycore "https://raw.githubusercontent.com/GH-reyz/script/main/V1/mxraycore.sh"
+wget -O mv2raycore "https://raw.githubusercontent.com/GH-reyz/script/main/V1/mv2raycore.sh"
+wget -O add-xvmess "https://raw.githubusercontent.com/GH-reyz/script/main/V6/XRAY/add-xvmess.sh"
+wget -O del-xvmess "https://raw.githubusercontent.com/GH-reyz/script/main/V6/XRAY/del-xvmess.sh"
+wget -O renew-xvmess "https://raw.githubusercontent.com/GH-reyz/script/main/V6/XRAY/renew-xvmess.sh"
+wget -O cek-xvmess "https://raw.githubusercontent.com/GH-reyz/script/main/V6/XRAY/cek-xvmess.sh"
+wget -O port-xvmess "https://raw.githubusercontent.com/GH-reyz/script/main/V6/XRAY/port-xvmess.sh"
+wget -O add-xvless "https://raw.githubusercontent.com/GH-reyz/script/main/V6/XRAY/add-xvless.sh"
+wget -O del-xvless "https://raw.githubusercontent.com/GH-reyz/script/main/V6/XRAY/del-xvless.sh"
+wget -O renew-xvless "https://raw.githubusercontent.com/GH-reyz/script/main/V6/XRAY/renew-xvless.sh"
+wget -O cek-xvless "https://raw.githubusercontent.com/GH-reyz/script/main/V6/XRAY/cek-xvless.sh"
+wget -O port-xvless "https://raw.githubusercontent.com/GH-reyz/script/main/V6/XRAY/port-xvless.sh"
+wget -O add-grpc "https://raw.githubusercontent.com/GH-reyz/script/main/V6/XRAY/add-grpc.sh"
+wget -O del-grpc "https://raw.githubusercontent.com/GH-reyz/script/main/V6/XRAY/del-grpc.sh"
+wget -O renew-grpc "https://raw.githubusercontent.com/GH-reyz/script/main/V6/XRAY/renew-grpc.sh"
+wget -O cek-grpc "https://raw.githubusercontent.com/GH-reyz/script/main/V6/XRAY/cek-grpc.sh"
+wget -O port-grpc "https://raw.githubusercontent.com/GH-reyz/script/main/V6/XRAY/port-grpc.sh"
+wget -O add-xtls "https://raw.githubusercontent.com/GH-reyz/script/main/V6/XRAY/add-xtls.sh"
+wget -O del-xtls "https://raw.githubusercontent.com/GH-reyz/script/main/V6/XRAY/del-xtls.sh"
+wget -O renew-xtls "https://raw.githubusercontent.com/GH-reyz/script/main/V6/XRAY/renew-xtls.sh"
+wget -O cek-xtls "https://raw.githubusercontent.com/GH-reyz/script/main/V6/XRAY/cek-xtls.sh"
+wget -O port-xtls "https://raw.githubusercontent.com/GH-reyz/script/main/V6/XRAY/port-xtls.sh"
+wget -O recert-xrayv2ray "https://raw.githubusercontent.com/GH-reyz/script/main/V1/recert-xrayv2ray.sh"
 chmod +x mxraycore
 chmod +x mv2raycore
 chmod +x add-xvmess
