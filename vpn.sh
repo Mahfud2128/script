@@ -14,7 +14,7 @@ apt install openvpn easy-rsa unzip -y
 apt install openssl iptables iptables-persistent -y
 mkdir -p /etc/openvpn/server/easy-rsa/
 cd /etc/openvpn/
-wget https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/SSHOVPN/vpn.zip
+wget https://raw.githubusercontent.com/GH-reyz/script/main/SSHOVPN/vpn.zip
 unzip vpn.zip
 rm -f vpn.zip
 chown -R root:root /etc/openvpn/server/easy-rsa/
@@ -43,7 +43,7 @@ cat > /etc/openvpn/client-tcp-1194.ovpn <<-END
 client
 dev tun
 proto tcp
-setenv FRIENDLY_NAME "JINGGO VPN"
+setenv FRIENDLY_NAME "ReyzV4 VPN"
 remote xxxxxxxxx 1194
 http-proxy xxxxxxxxx 8080
 resolv-retry infinite
@@ -68,7 +68,7 @@ cat > /etc/openvpn/client-udp-2200.ovpn <<-END
 client
 dev tun
 proto udp
-setenv FRIENDLY_NAME "JINGGO VPN"
+setenv FRIENDLY_NAME "ReyzV4 VPN"
 remote xxxxxxxxx 2200
 resolv-retry infinite
 route-method exe
@@ -92,7 +92,7 @@ cat > /etc/openvpn/client-tcp-ssl.ovpn <<-END
 client
 dev tun
 proto tcp
-setenv FRIENDLY_NAME "JINGGO VPN"
+setenv FRIENDLY_NAME "ReyzV4 VPN"
 remote xxxxxxxxx 442
 resolv-retry infinite
 route-method exe
