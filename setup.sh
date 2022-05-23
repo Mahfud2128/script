@@ -114,7 +114,7 @@ echo -e "============================================="
 echo -e " ${green} INSTALLING SHADOWSOCKS R${NC} "
 echo -e "============================================="
 sleep 2
-wget https://raw.githubusercontent.com/GH-reyz/script/main/SSR/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
+wget https://raw.githubusercontent.com/GH-reyz/script/main/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
 sleep 2
 clear
 
@@ -123,7 +123,7 @@ echo -e "============================================="
 echo -e " ${green} INSTALLING SHADOWSOCKS OBFS${NC} "
 echo -e "============================================="
 sleep 2
-wget https://raw.githubusercontent.com/GH-reyz/script/main/SS/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
+wget https://raw.githubusercontent.com/GH-reyz/script/main/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
 sleep 2
 clear
 
@@ -132,7 +132,7 @@ echo -e "============================================="
 echo -e " ${green} INSTALLING WIREGUARD${NC} "
 echo -e "============================================="
 sleep 2
-wget https://raw.githubusercontent.com/GH-reyz/script/main/WG/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
+wget https://raw.githubusercontent.com/GH-reyz/script/main/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
 sleep 2
 clear
 
@@ -141,7 +141,7 @@ echo -e "============================================="
 echo -e " ${green}  INSTALLING V2RAY${NC} "
 echo -e "============================================="
 sleep 2
-wget https://raw.githubusercontent.com/GH-reyz/script/main/V2RAY/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
+wget https://raw.githubusercontent.com/GH-reyz/script/main/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
 sleep 2
 clear
 
@@ -150,7 +150,7 @@ echo -e "============================================="
 echo -e " ${green} INSTALLING XRAY${NC} "
 echo -e "============================================="
 sleep 2
-wget https://raw.githubusercontent.com/GH-reyz/script/main/V1/install-xray.sh && chmod +x install-xray.sh && screen -S v2ray ./install-xray.sh
+wget https://raw.githubusercontent.com/GH-reyz/script/main/install-xray.sh && chmod +x install-xray.sh && screen -S v2ray ./install-xray.sh
 sleep 2
 clear
 
@@ -159,7 +159,7 @@ echo -e "============================================="
 echo -e " ${green}  INSTALLING OHP${NC} "
 echo -e "============================================="
 sleep 2
-wget https://raw.githubusercontent.com/GH-reyz/script/main/OHP/ohp.sh && chmod +x ohp.sh && ./ohp.sh
+wget https://raw.githubusercontent.com/GH-reyz/script/main/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 sleep 2
 clear
 
