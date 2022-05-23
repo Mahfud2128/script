@@ -50,7 +50,7 @@ MYIP=$(wget -qO- icanhazip.com);
 
 echo -e "${green}CHECKING SCRIPT ACCESS${NC}"
 sleep 2
-IZIN=$(curl https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/IP/REGIP | grep $MYIP | awk '{print $4}')
+IZIN=$(curl https://raw.githubusercontent.com/GH-reyz/GH-reyz/main/Register%20IP | grep $MYIP | awk '{print $4}')
 if [ $MYIP = $IZIN ]; then
     echo -e ""
     echo -e "${green}ACCESS GRANTED...${NC}"
