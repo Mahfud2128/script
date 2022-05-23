@@ -76,7 +76,7 @@ PostDown = iptables -D FORWARD -i wg0 -j ACCEPT; iptables -t nat -D POSTROUTING 
 
 iptables -t nat -I POSTROUTING -s 10.66.66.1/24 -o $SERVER_PUB_NIC -j MASQUERADE
 iptables -I INPUT 1 -i wg0 -j ACCEPT
-iptables -I FORWARD 1 -i $SERVER_PUB_NIC -o wg0 -j ACCEPT
+iptables -I FORWARD 1 -i $SERVER_PUB_NIC -o wg0 -j ACCEPTj
 iptables -I FORWARD 1 -i wg0 -o $SERVER_PUB_NIC -j ACCEPT
 iptables -I INPUT 1 -i $SERVER_PUB_NIC -p udp --dport 7070 -j ACCEPT
 iptables-save > /etc/iptables.up.rules
@@ -93,12 +93,12 @@ WG_RUNNING=$?
 
 # Tambahan
 cd /usr/bin
-wget -O mwg "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/WG/mwg.sh"
-wget -O add-wg "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/WG/add-wg.sh"
-wget -O del-wg "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/WG/del-wg.sh"
-wget -O cek-wg "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/WG/cek-wg.sh"
-wget -O renew-wg "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/WG/renew-wg.sh"
-wget -O port-wg "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/WG/port-wg.sh"
+wget -O mwg "https://raw.githubusercontent.com/GH-reyz/script/main/WG/mwg.sh"
+wget -O add-wg "https://raw.githubusercontent.com/GH-reyz/script/main/WG/add-wg.sh"
+wget -O del-wg "https://raw.githubusercontent.com/GH-reyz/script/main/WG/del-wg.sh"
+wget -O cek-wg "https://raw.githubusercontent.com/GH-reyz/script/main/WG/cek-wg.sh"
+wget -O renew-wg "https://raw.githubusercontent.com/GH-reyz/script/main/WG/renew-wg.sh"
+wget -O port-wg "https://raw.githubusercontent.com/GH-reyz/script/main/WG/port-wg.sh"
 chmod +x mwg
 chmod +x add-wg
 chmod +x del-wg
