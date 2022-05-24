@@ -31,7 +31,7 @@ echo -e  "${blue_b}╚═══╝╚═══╝╚╝╚═╝╚══╝╚�
 echo -e  " "
 echo -e  "  Premium Script "
 echo -e  " ═════════════════════════════════════════════════════════════════ "                                                              
-echo -e  "                      [ SERVER INFORMATION ]"
+echo -e  "                        [ SERVER INFORMATION ]"
 echo -e  " ═════════════════════════════════════════════════════════════════ "
 echo -e  " " 
 echo -e  " ${green}IP VPS NUMBER               : $IPVPS${NC}"
