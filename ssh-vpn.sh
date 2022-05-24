@@ -18,7 +18,7 @@ commonname=JINGGOVPN
 email=johnlabu2801@gmail.com
 
 # simple password minimal
-wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/GH-reyz/script/main/password"
+wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/SSHOVPN/password"
 chmod +x /etc/pam.d/common-password
 
 # go to root
@@ -85,14 +85,14 @@ apt -y install nginx
 cd
 rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
-wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/GH-reyz/script/main/nginx.conf"
+wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/SSHOVPN/nginx.conf"
 mkdir -p /home/vps/public_html
-wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/GH-reyz/script/main/vps.conf"
+wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/SSHOVPN/vps.conf"
 /etc/init.d/nginx restart
 
 # install badvpn
 cd
-wget -O /usr/bin/badvpn-udpgw "https://raw.githubusercontent.com/GH-reyz/script/main/badvpn-udpgw64"
+wget -O /usr/bin/badvpn-udpgw "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/SSHOVPN/badvpn-udpgw64"
 chmod +x /usr/bin/badvpn-udpgw
 sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7100 --max-clients 500' /etc/rc.local
 sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7200 --max-clients 500' /etc/rc.local
@@ -122,7 +122,7 @@ echo "/usr/sbin/nologin" >> /etc/shells
 # install squid
 cd
 apt -y install squid3
-wget -O /etc/squid/squid.conf "https://raw.githubusercontent.com/GH-reyz/script/main/squid3.conf"
+wget -O /etc/squid/squid.conf "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/SSHOVPN/squid3.conf"
 sed -i $MYIP2 /etc/squid/squid.conf
 
 # setting vnstat
@@ -181,10 +181,10 @@ apt -y install tmux
 apt -y install ruby
 gem install lolcat
 apt -y install figlet
-wget -q https://raw.githubusercontent.com/GH-reyz/script/edu.sh && chmod +x edu.sh && ./edu.sh
+wget -q https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/SSHOVPN/edu.sh && chmod +x edu.sh && ./edu.sh
 
 #OpenVPN
-wget https://raw.githubusercontent.com/GH-reyz/script/vpn.sh && chmod +x vpn.sh && ./vpn.sh
+wget https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/SSHOVPN/vpn.sh && chmod +x vpn.sh && ./vpn.sh
 
 # install fail2ban
 apt -y install fail2ban
@@ -218,7 +218,7 @@ service iptables restart
 clear
 
 # banner /etc/issue.net
-wget -O /etc/issue.net "https://raw.githubusercontent.com/GH-reyz/scrit/issue.net"
+wget -O /etc/issue.net "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/SSHOVPN/issue.net"
 echo "Banner /etc/issue.net" >>/etc/ssh/sshd_config
 sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/issue.net"@g' /etc/default/dropbear
 
@@ -245,34 +245,34 @@ echo -e " ${green} DOWNLOAD MENU SCRIPT ${NC}"
 echo -e "============================================="
 sleep 2
 cd /usr/bin
-wget -O mssh "https://raw.githubusercontent.com/GH-reyz/script/main/mssh.sh"
-wget -O menu "https://raw.githubusercontent.com/GH-reyz/script/main/menu.sh"
-wget -O add-host "https://raw.githubusercontent.com/GH-reyz/script/main/add-host.sh"
-wget -O usernew "https://raw.githubusercontent.com/GH-reyz/script/main/usernew.sh"
-wget -O trial "https://raw.githubusercontent.com/GH-reyz/script/main/trial.sh"
-wget -O hapus "https://raw.githubusercontent.com/GH-reyz/script/main/hapus.sh"
-wget -O member "https://raw.githubusercontent.com/GH-reyz/script/main/member.sh"
-wget -O delete "https://raw.githubusercontent.com/GH-reyz/script/main/delete.sh"
-wget -O cek "https://raw.githubusercontent.com/GH-reyz/script/main/cek.sh"
-wget -O restart "https://raw.githubusercontent.com/GH-reyz/script/main/restart.sh"
-wget -O speedtest "https://raw.githubusercontent.com/GH-reyz/script/main/speedtest_cli.py"
-wget -O info "https://raw.githubusercontent.com/GH-reyz/script/main/info.sh"
-wget -O ram "https://raw.githubusercontent.com/GH-reyz/script/main/ram.sh"
-wget -O renew "https://raw.githubusercontent.com/GH-reyz/script/main/renew.sh"
-wget -O autokill "https://raw.githubusercontent.com/GH-reyz/script/main/autokill.sh"
-wget -O ceklim "https://raw.githubusercontent.com/GH-reyz/script/main/ceklim.sh"
-wget -O tendang "https://raw.githubusercontent.com/GH-reyz/script/main/tendang.sh"
-wget -O change "https://raw.githubusercontent.com/GH-reyz/script/main/change.sh"
-wget -O port-ovpn "https://raw.githubusercontent.com/GH-reyz/script/main/port-ovpn.sh"
-wget -O port-ssl "https://raw.githubusercontent.com/GH-reyz/script/main/port-ssl.sh"
-wget -O port-squid "https://raw.githubusercontent.com/GH-reyz/script/main/port-squid.sh"
-wget -O wbmn "https://raw.githubusercontent.com/GH-reyz/script/main/webmin.sh"
-wget -O xp "https://raw.githubusercontent.com/GH-reyz/script/main/xp.sh"
-wget -O checksystem "https://raw.githubusercontent.com/GH-reyz/script/main/checksystem.sh"
-wget -O jinggo "https://raw.githubusercontent.com/GH-reyz/script/main/jinggo.sh"
-wget -O mdns "https://raw.githubusercontent.com/GH-reyz/script/main/mdns.sh"
-wget -O nf "https://raw.githubusercontent.com/GH-reyz/script/main/nf.sh"
-wget -O update "https://raw.githubusercontent.com/GH-reyz/script/main/update.sh"
+wget -O mssh "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/SSHOVPN/mssh.sh"
+wget -O menu "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V1/menu.sh"
+wget -O add-host "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V1/add-host.sh"
+wget -O usernew "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/MENU/usernew.sh"
+wget -O trial "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/MENU/trial.sh"
+wget -O hapus "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/MENU/hapus.sh"
+wget -O member "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/MENU/member.sh"
+wget -O delete "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/MENU/delete.sh"
+wget -O cek "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/MENU/cek.sh"
+wget -O restart "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/MENU/restart.sh"
+wget -O speedtest "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/MENU/speedtest_cli.py"
+wget -O info "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/MENU/info.sh"
+wget -O ram "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/MENU/ram.sh"
+wget -O renew "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/MENU/renew.sh"
+wget -O autokill "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/MENU/autokill.sh"
+wget -O ceklim "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/MENU/ceklim.sh"
+wget -O tendang "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/MENU/tendang.sh"
+wget -O change "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V1/change.sh"
+wget -O port-ovpn "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/MENU/port-ovpn.sh"
+wget -O port-ssl "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/MENU/port-ssl.sh"
+wget -O port-squid "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/MENU/port-squid.sh"
+wget -O wbmn "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/MENU/webmin.sh"
+wget -O xp "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V1/xp.sh"
+wget -O checksystem "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V1/checksystem.sh"
+wget -O jinggo "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/jinggo.sh"
+wget -O mdns "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/MENU/mdns.sh"
+wget -O nf "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V1/nf.sh"
+wget -O update "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V1/update.sh"
 chmod +x mssh
 chmod +x menu
 chmod +x add-host
