@@ -34,14 +34,15 @@ echo -e  " ${blue}════════════════════�
 echo -e  "                     • SERVER INFORMATION •"
 echo -e  " ═════════════════════════════════════════════════════════════════ "
 echo -e  " "
-echo -e  " ${green}IP VPS NUMBER               : $IPVPS${NC}"
-echo -e  " ${green}DOMAIN                      : $DOMAIN${NC}"
-echo -e  " ${green}OS VERSION                  : `hostnamectl | grep "Operating System" | cut -d ' ' -f5-`"${NC}
-echo -e  " ${green}KERNEL VERSION              : `uname -r`${NC}"
-echo -e  " ${green}EXP DATE CERT V2RAY/XRAY    : $expxray${NC}"
-echo -e  " ${green}CLIENT NAME                 : $name${NC}"
-echo -e  " ${green}EXP SCRIPT ACCSESS          : $exp${NC}"
-echo -e  " ${green}CONTACT TELEGRAM            : @GHReyz/@ReyzV4" 
+echo -e  " ${blue_b}VPS TYPE                    : PREMIUM
+echo -e  " ${blue_b}IP VPS NUMBER               : $IPVPS${NC}"
+echo -e  " ${blue_b}DOMAIN                      : $DOMAIN${NC}"
+echo -e  " ${blue_b}OS VERSION                  : `hostnamectl | grep "Operating System" | cut -d ' ' -f5-`"${NC}
+echo -e  " ${blue_b}KERNEL VERSION              : `uname -r`${NC}"
+echo -e  " ${blue_b}EXP DATE CERT V2RAY/XRAY    : $expxray${NC}"
+echo -e  " ${blue_b}CLIENT NAME                 : $name${NC}"
+echo -e  " ${blue_b}EXP SCRIPT ACCSESS          : $exp${NC}"
+echo -e  " ${blue_b}CONTACT TELEGRAM            : @GHReyz" 
 echo -e  " "
 echo -e  " ${blue}═════════════════════════════════════════════════════════════════ "
 echo -e  "                          • MAIN MENU • "                                       
