@@ -25,7 +25,7 @@ exp=$(curl -sS https://raw.githubusercontent.com/GH-reyz/GH-reyz/main/Register%2
 
 echo -e  "${blue_b}╔═══╗╔═══╗╔═══╗╔══╗╔═══╗╔════╗  ╔═══╗╔═══╗╔═══╗╔═╗╔═╗╔══╗╔╗ ╔╗╔═╗╔═╗"${NC}
 echo -e  "${blue_b}║╔═╗║║╔═╗║║╔═╗║╚╣╠╝║╔═╗║║╔╗╔╗║  ║╔═╗║║╔═╗║║╔══╝║║╚╝║║╚╣╠╝║║ ║║║║╚╝║║"${NC}
-echo -e  "${blue_b}╚══╗║║║ ╔╗║╔╗╔╝ ║║ ║╔══╝  ║║    ║╔══╝║╔╗╔╝║╔══╝║║║║║║ ║║ ║║ ║║║║║║║║"${NC}
+echo -e  "${blue_b}╚══╗║║║ ╔╗║╔╗╔╝ ║║ ║╔══╝  ║║     ║╔══╝║╔╗╔╝║╔══╝║║║║║║ ║║ ║║ ║║║║║║║║"${NC}
 echo -e  "${blue_b}║╚═╝║║╚═╝║║║║╚╗╔╣╠╗║║    ╔╝╚╗   ║║   ║║║╚╗║╚══╗║║║║║║╔╣╠╗║╚═╝║║║║║║║"${NC}
 echo -e  "${blue_b}╚═══╝╚═══╝╚╝╚═╝╚══╝╚╝    ╚══╝   ╚╝   ╚╝╚═╝╚═══╝╚╝╚╝╚╝╚══╝╚═══╝╚╝╚╝╚╝"${NC}
 echo -e  " "
@@ -40,6 +40,7 @@ echo -e  " ${green}KERNEL VERSION              : `uname -r`${NC}"
 echo -e  " ${green}EXP DATE CERT V2RAY/XRAY    : $expxray${NC}"
 echo -e  " ${green}CLIENT NAME                 : $name${NC}"
 echo -e  " ${green}EXP SCRIPT ACCSESS          : $exp${NC}"
+echo -e  " ${green}TELEGRAM                    : @GHReyz / @ReyzV4"
 echo -e  " "
 echo -e  " ═════════════════════════════════════════════════════════════════ "
 echo -e  " ${green}MAIN MENU${NC} "                                       
