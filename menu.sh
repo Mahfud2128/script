@@ -30,7 +30,7 @@ echo -e  "${blue_b}║╚═╝║║╚═╝║║║║╚╗╔╣╠╗║�
 echo -e  "${blue_b}╚═══╝╚═══╝╚╝╚═╝╚══╝╚╝    ╚══╝   ╚╝   ╚╝╚═╝╚═══╝╚╝╚╝╚╝╚══╝╚═══╝╚╝╚╝╚╝"${NC}
 echo -e  " "
 echo -e  " ═════════════════════════════════════════════════════════════════ "
-echo -e  " ${blue_b}PREMIUM SCRIPT BY REYZ-V4"
+echo -e  "  PREMIUM SCRIPT BY REYZ-V4"
 echo -e  " ═════════════════════════════════════════════════════════════════ "
 echo -e  " "
 echo -e  " ${green}IP VPS NUMBER               : $IPVPS${NC}"
