@@ -227,7 +227,7 @@ echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   - Dev/Main                : Horas/MD"  | tee -a log-install.txt
-echo "   - Modded by               : JINGGO007"  | tee -a log-install.txt
+echo "   - Modded by               : GHReyz / ReyzV4"  | tee -a log-install.txt
 echo "   - Telegram                : t.me/GHReyz"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
