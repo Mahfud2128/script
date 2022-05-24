@@ -228,10 +228,10 @@ echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   - Dev/Main                : Horas/MD"  | tee -a log-install.txt
 echo "   - Modded by               : JINGGO007"  | tee -a log-install.txt
-echo "   - Telegram                : t.me/jinggo007"  | tee -a log-install.txt
+echo "   - Telegram                : t.me/GHReyz"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "=========================== SCRIPT BY JINGGO007 =========================" | tee -a log-install.txt
+echo "=========================== SCRIPT BY REYZ-V4 =========================" | tee -a log-install.txt
 echo ""
 sleep 1
 rm -f setup.sh
