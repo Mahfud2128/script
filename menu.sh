@@ -32,7 +32,7 @@ echo -e  " "
 echo -e  " ═════════════════════════════════════════════════════════════════ "
 echo -e  "  PREMIUM SCRIPT BY REYZ-V4"
 echo -e  " ═════════════════════════════════════════════════════════════════ "
-echo -e  "                             [ SERVER INFORMATION ]                                      
+echo -e  "                             [ SERVER INFORMATION ]"                                     
 echo -e  " ═════════════════════════════════════════════════════════════════ "
 echo -e  " "
 echo -e  " ${green}IP VPS NUMBER               : $IPVPS${NC}"
