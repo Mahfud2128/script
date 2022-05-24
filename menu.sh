@@ -6,7 +6,7 @@ blue='\e[0;34m'
 blue_b='\e[0;94m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
-IZIN=$(curl https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/IP/REGIP | grep $MYIP | awk '{print $4}')
+IZIN=$(curl https://raw.githubusercontent.com/GH-reyz/GH-reyz/main/Register%20IP | grep $MYIP | awk '{print $4}')
 if [ $MYIP = $IZIN ]; then
     echo -e ""
     clear
