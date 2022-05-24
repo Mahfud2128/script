@@ -29,7 +29,7 @@ echo -e  "${blue_b}╚══╗║║║ ╔╗║╔╗╔╝ ║║ ║╔═�
 echo -e  "${blue_b}║╚═╝║║╚═╝║║║║╚╗╔╣╠╗║║    ╔╝╚╗   ║║   ║║║╚╗║╚══╗║║║║║║╔╣╠╗║╚═╝║║║║║║║"${NC}
 echo -e  "${blue_b}╚═══╝╚═══╝╚╝╚═╝╚══╝╚╝    ╚══╝   ╚╝   ╚╝╚═╝╚═══╝╚╝╚╝╚╝╚══╝╚═══╝╚╝╚╝╚╝"${NC}
 echo -e  " "
-echo -e  "  Premium Script By REYZ-V4"
+echo -e  "  Premium Script "
 echo -e  " ═════════════════════════════════════════════════════════════════ "                                                              
 echo -e  "                      [ SERVER INFORMATION ]"
 echo -e  " ═════════════════════════════════════════════════════════════════ "
@@ -42,6 +42,7 @@ echo -e  " ${green}EXP DATE CERT V2RAY/XRAY    : $expxray${NC}"
 echo -e  " ${green}CLIENT NAME                 : $name${NC}"
 echo -e  " ${green}EXP SCRIPT ACCSESS          : $exp${NC}"
 echo -e  " ${green}TELEGRAM                    : @GHReyz "
+echo -e  " "
 echo -e  " "
 echo -e  " ═════════════════════════════════════════════════════════════════ "
 echo -e  " ${green}MAIN MENU${NC} "                                       
