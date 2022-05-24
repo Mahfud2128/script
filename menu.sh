@@ -29,9 +29,6 @@ echo -e  "${blue_b}╚══╗║║║ ╔╗║╔╗╔╝ ║║ ║╔═�
 echo -e  "${blue_b}║╚═╝║║╚═╝║║║║╚╗╔╣╠╗║║    ╔╝╚╗   ║║   ║║║╚╗║╚══╗║║║║║║╔╣╠╗║╚═╝║║║║║║║"${NC}
 echo -e  "${blue_b}╚═══╝╚═══╝╚╝╚═╝╚══╝╚╝    ╚══╝   ╚╝   ╚╝╚═╝╚═══╝╚╝╚╝╚╝╚══╝╚═══╝╚╝╚╝╚╝"${NC}
 echo -e  " "
-echo -e  " ${green}MODDED BY REYZ-V4
-echo -e  " ═════════════════════════════════════════════════════════════════ "
-echo -e  " "
 echo -e  " ${green}IP VPS NUMBER               : $IPVPS${NC}"
 echo -e  " ${green}DOMAIN                      : $DOMAIN${NC}"
 echo -e  " ${green}OS VERSION                  : `hostnamectl | grep "Operating System" | cut -d ' ' -f5-`"${NC}
