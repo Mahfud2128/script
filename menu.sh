@@ -34,10 +34,10 @@ echo -e  " ${blue}════════════════════�
 echo -e  "                       • SERVER INFORMATION •"
 echo -e  " ═════════════════════════════════════════════════════════════════ "
 echo -e  " "
-echo -e  " ${blue_b}VPS TYPE                    : PREMIUM
+echo -e  " ${blue_b}VPS TYPE                    : PREMIUM"
 echo -e  " ${blue_b}IP VPS NUMBER               : $IPVPS${NC}"
 echo -e  " ${blue_b}DOMAIN                      : $DOMAIN${NC}"
-echo -e  " ${blue_b}SCRIPT VERSION              : REYZ-V4 (V1)
+echo -e  " ${blue_b}SCRIPT VERSION              : REYZ-V4 (V1)"
 echo -e  " ${blue_b}OS VERSION                  : `hostnamectl | grep "Operating System" | cut -d ' ' -f5-`"${NC}
 echo -e  " ${blue_b}KERNEL VERSION              : `uname -r`${NC}"
 echo -e  " ${blue_b}EXP DATE CERT V2RAY/XRAY    : $expxray${NC}"
