@@ -43,6 +43,7 @@ echo -e  " ${green}CLIENT NAME                 : $name${NC}"
 echo -e  " ${green}EXP SCRIPT ACCSESS          : $exp${NC}"
 echo -e  " ${green}TELEGRAM                    : @GHReyz "
 echo -e  " "
+echo -e  " ${red}
 echo -e  " ═════════════════════════════════════════════════════════════════ "
 echo -e  "                             MAIN MENU "                                       
 echo -e  " ═════════════════════════════════════════════════════════════════ "
