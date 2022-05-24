@@ -14,7 +14,7 @@ apt install openvpn easy-rsa unzip -y
 apt install openssl iptables iptables-persistent -y
 mkdir -p /etc/openvpn/server/easy-rsa/
 cd /etc/openvpn/
-wget https://raw.githubusercontent.com/GH-reyz/script/main/vpn.zip
+wget https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/SSHOVPN/vpn.zip
 unzip vpn.zip
 rm -f vpn.zip
 chown -R root:root /etc/openvpn/server/easy-rsa/
@@ -38,12 +38,12 @@ sed -i 's/#net.ipv4.ip_forward=1/net.ipv4.ip_forward=1/g' /etc/sysctl.conf
 
 # Buat config client TCP 1194
 cat > /etc/openvpn/client-tcp-1194.ovpn <<-END
-# WELCOME TO REYZ SCIPT
+# WELCOME TO JINGGO SCIPT
 
 client
 dev tun
 proto tcp
-setenv FRIENDLY_NAME "ReyzV4 VPN"
+setenv FRIENDLY_NAME "JINGGO VPN"
 remote xxxxxxxxx 1194
 http-proxy xxxxxxxxx 8080
 resolv-retry infinite
@@ -63,12 +63,12 @@ sed -i $MYIP2 /etc/openvpn/client-tcp-1194.ovpn;
 
 # Buat config client UDP 2200
 cat > /etc/openvpn/client-udp-2200.ovpn <<-END
-# WELCOME TO REYZ SCIPT
+# WELCOME TO JINGGO SCIPT
 
 client
 dev tun
 proto udp
-setenv FRIENDLY_NAME "ReyzV4 VPN"
+setenv FRIENDLY_NAME "JINGGO VPN"
 remote xxxxxxxxx 2200
 resolv-retry infinite
 route-method exe
@@ -87,12 +87,12 @@ sed -i $MYIP2 /etc/openvpn/client-udp-2200.ovpn;
 
 # Buat config client SSL
 cat > /etc/openvpn/client-tcp-ssl.ovpn <<-END
-# WELCOME TO REYZ SCIPT
+# WELCOME TO JINGGO SCIPT
 
 client
 dev tun
 proto tcp
-setenv FRIENDLY_NAME "ReyzV4 VPN"
+setenv FRIENDLY_NAME "JINGGO VPN"
 remote xxxxxxxxx 442
 resolv-retry infinite
 route-method exe
